@@ -1,0 +1,69 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+#main-footer {
+    background:#000;
+    border-top: white 5px solid;
+    color: #fff;
+    border-bottom: white 5px solid;
+  }
+
+  .navbar{
+    border-bottom:rgb(57, 178, 191) 5px solid;
+    opacity: 0.7;
+    position: relative;
+    z-index: 10;
+    
+  }
+  .navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  #showcase {
+    position: relative;
+  }
+  
+  .navbar .nav-item.active {
+    border-left: white 3px solid;
+  }
+
+  .carousel-item {
+    height: 450px;
+  }
+
+  .carousel-image-1 {
+    background: url('../img/PastaTime2.jpg');
+    background-size: cover;
+  }
+  
+  .carousel-image-2 {
+    background: url('../img/pastaTime1.jpg');
+    background-size: cover;
+  }
+  
+  .carousel-image-3 {
+    background: url('../img/pastaTime5.jpg');
+    background-size: cover;
+  }
+
+  #page-header {
+
+    position: relative;
+    min-height: 200px;
+    background: url('../img/image1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+  }
+
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.25rem;
+}
